@@ -53,9 +53,12 @@ This project to technical test on  PT KB Finansia Multi Finance
 1. $go version > go1.21.0
 
 ## Third-party Libraries
-```bash  
+Execute the following commands to install the required libraries: 
+
+```shellscript
 go get -u github.com/confluentinc/confluent-kafka-go/v2/kafka
 go get gorm.io/gorm 
+```
    
 ## Setup
 1. **Create the `.env` file**  
