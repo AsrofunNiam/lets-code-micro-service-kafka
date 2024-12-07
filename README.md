@@ -57,7 +57,6 @@ Execute the following commands to install the required libraries:
 
 ```shellscript
 go get -u github.com/confluentinc/confluent-kafka-go/v2/kafka
-go get gorm.io/gorm 
 ```
    
 ## Setup
@@ -67,8 +66,9 @@ go get gorm.io/gorm
 ## Running the Project
 1. **Run the Project**  
    Execute the following command to run the project:
-   ```bash
+   ```shellscript
    go run main.go 
+   ```
 
 2. In the database.go file, there's an auto-migrate function that will automatically create the tables and their schemas in the database. 
 3. JSON Export Files
