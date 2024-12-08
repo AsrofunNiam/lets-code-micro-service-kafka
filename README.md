@@ -50,7 +50,7 @@ This project to technical test on  PT KB Finansia Multi Finance
 1. https://www.notion.so/https-github-com-AsrofunNiam-lets-code-micro-service-kafka-1542ffdf28e68068b1b8ff01e275254c?pvs=4
 
 ## Go version 
-1. $go version > go1.21.0
+1. $go version > go1.22.0
 
 ## Third-party Libraries
 Execute the following commands to install the required libraries: 
@@ -70,7 +70,5 @@ go get github.com/fatih/color
    ```shellscript
    go run main.go 
    ```
-
-2. In the database.go file, there's an auto-migrate function that will automatically create the tables and their schemas in the database. 
-3. JSON Export Files
+2. JSON Export Files
     Move or export JSON files (e.g., file.json) to the appropriate tool (Postman, Swagger) for testing.
