@@ -57,6 +57,7 @@ Execute the following commands to install the required libraries:
 
 ```shellscript
 go get -u github.com/confluentinc/confluent-kafka-go/v2/kafka
+go get github.com/fatih/color
 ```
    
 ## Setup
