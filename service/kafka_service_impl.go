@@ -2,9 +2,11 @@ package service
 
 import (
 	"context"
+	"fmt"
 	"log"
 
 	"github.com/AsrofunNiam/lets-code-micro-service-kafka/repository"
+	"github.com/fatih/color"
 )
 
 type KafkaServiceImpl struct {
@@ -27,6 +29,6 @@ func (s *KafkaServiceImpl) ReceiveMessages(ctx context.Context) {
 	}
 
 	for msg := range messages {
-		log.Println("Received message:", msg)
+		fmt.Printf("%v %v\n", color.GreenString("Received message: :"), msg)
 	}
 }
